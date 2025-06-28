@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Plane Identifier AR</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">Plane Identifier AR</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About AeroScan</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="howto.html">How to Use</a></li>
+      <li><a href="screenshots.html">Screenshots</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Contact Us</h1>
+    <p>Have questions or want updates? Reach out!</p>
+    <form action="mailto:youremail@example.com" method="POST" enctype="text/plain" class="contact-form">
+      <label for="name">Name</label><br />
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="email">Email</label><br />
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="message">Message</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea><br />
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Plane Identifier AR</p>
+  </footer>
+</body>
+</html>

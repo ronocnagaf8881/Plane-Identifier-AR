@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About AeroScan - Plane Identifier AR</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">Plane Identifier AR</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About AeroScan</a></li>
+      <li><a href="features.html">Features</a></li>
+      <li><a href="howto.html">How to Use</a></li>
+      <li><a href="screenshots.html">Screenshots</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>About AeroScan</h1>
+    <p>AeroScan is the core scanning technology inside Plane Identifier AR. It uses augmented reality (AR) to scan the sky and recognize aircraft models instantly.</p>
+    <p>By combining camera input and a comprehensive aircraft database, AeroScan delivers real-time plane identification and details.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Plane Identifier AR</p>
+  </footer>
+</body>
+</html>
